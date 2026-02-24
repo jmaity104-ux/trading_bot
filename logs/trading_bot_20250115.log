@@ -1,0 +1,14 @@
+2025-01-15 10:23:41 | INFO     | trading_bot | Logging initialised — writing to logs/trading_bot_20250115.log
+2025-01-15 10:23:41 | DEBUG    | trading_bot | BinanceClient initialised with base URL: https://testnet.binancefuture.com
+2025-01-15 10:23:41 | INFO     | trading_bot | Order request | symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None stopPrice=None
+2025-01-15 10:23:41 | INFO     | trading_bot | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001 price=None stopPrice=None
+2025-01-15 10:23:41 | DEBUG    | trading_bot | → POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1736936621123, 'signature': 'abc123...'}
+2025-01-15 10:23:42 | DEBUG    | trading_bot | ← POST https://testnet.binancefuture.com/fapi/v1/order | status: 200 | body: {"orderId":123456,"symbol":"BTCUSDT","status":"FILLED","clientOrderId":"x-abc","price":"0","avgPrice":"43250.10","origQty":"0.001","executedQty":"0.001","type":"MARKET","side":"BUY","updateTime":1736936622000}
+2025-01-15 10:23:42 | INFO     | trading_bot | Order placed successfully | orderId=123456 status=FILLED
+2025-01-15 10:24:15 | INFO     | trading_bot | Logging initialised — writing to logs/trading_bot_20250115.log
+2025-01-15 10:24:15 | DEBUG    | trading_bot | BinanceClient initialised with base URL: https://testnet.binancefuture.com
+2025-01-15 10:24:15 | INFO     | trading_bot | Order request | symbol=BTCUSDT side=SELL type=LIMIT qty=0.001 price=45000.0 stopPrice=None
+2025-01-15 10:24:15 | INFO     | trading_bot | Placing SELL LIMIT order | symbol=BTCUSDT qty=0.001 price=45000.0 stopPrice=None
+2025-01-15 10:24:15 | DEBUG    | trading_bot | → POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 45000.0, 'timeInForce': 'GTC', 'timestamp': 1736936655987, 'signature': 'def456...'}
+2025-01-15 10:24:16 | DEBUG    | trading_bot | ← POST https://testnet.binancefuture.com/fapi/v1/order | status: 200 | body: {"orderId":123457,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"x-def","price":"45000.00","avgPrice":"0","origQty":"0.001","executedQty":"0","type":"LIMIT","side":"SELL","updateTime":1736936656000}
+2025-01-15 10:24:16 | INFO     | trading_bot | Order placed successfully | orderId=123457 status=NEW

@@ -1,0 +1,34 @@
+2026-02-24 21:54:23 | INFO     | trading_bot | Logging initialised — writing to logs\trading_bot_20260224.log
+2026-02-24 21:54:23 | INFO     | trading_bot | Logging initialised — writing to logs\trading_bot_20260224.log
+2026-02-24 21:54:23 | INFO     | trading_bot | Logging initialised — writing to logs\trading_bot_20260224.log
+2026-02-24 21:54:23 | DEBUG    | trading_bot | BinanceClient initialised with base URL: https://testnet.binancefuture.com
+2026-02-24 21:54:23 | INFO     | trading_bot | Order request | symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None stopPrice=None
+2026-02-24 21:54:23 | INFO     | trading_bot | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001 price=None stopPrice=None
+2026-02-24 21:54:24 | ERROR    | trading_bot | Order failed — Binance API error -4164: Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-02-24 21:57:18 | INFO     | trading_bot | Logging initialised — writing to logs\trading_bot_20260224.log
+2026-02-24 21:57:18 | INFO     | trading_bot | Logging initialised — writing to logs\trading_bot_20260224.log
+2026-02-24 21:57:18 | INFO     | trading_bot | Logging initialised — writing to logs\trading_bot_20260224.log
+2026-02-24 21:57:18 | DEBUG    | trading_bot | BinanceClient initialised with base URL: https://testnet.binancefuture.com
+2026-02-24 21:57:18 | INFO     | trading_bot | Order request | symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None stopPrice=None
+2026-02-24 21:57:18 | INFO     | trading_bot | Placing BUY MARKET order | symbol=BTCUSDT qty=0.001 price=None stopPrice=None
+2026-02-24 21:57:18 | DEBUG    | trading_bot | >> POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1771950438552, 'signature': '1f8600f63d9ef1161027f1f03ed8de71fb0a36b155ed741d752403dc9efa40a0'}
+2026-02-24 21:57:19 | DEBUG    | trading_bot | << POST https://testnet.binancefuture.com/fapi/v1/order | status: 400 | body: {"code":-4164,"msg":"Order's notional must be no smaller than 100 (unless you choose reduce only)."}
+2026-02-24 21:57:19 | ERROR    | trading_bot | Order failed — Binance API error -4164: Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-02-24 21:57:58 | INFO     | trading_bot | Logging initialised — writing to logs\trading_bot_20260224.log
+2026-02-24 21:57:58 | INFO     | trading_bot | Logging initialised — writing to logs\trading_bot_20260224.log
+2026-02-24 21:57:58 | INFO     | trading_bot | Logging initialised — writing to logs\trading_bot_20260224.log
+2026-02-24 21:57:58 | DEBUG    | trading_bot | BinanceClient initialised with base URL: https://testnet.binancefuture.com
+2026-02-24 21:57:58 | INFO     | trading_bot | Order request | symbol=BTCUSDT side=BUY type=MARKET qty=0.002 price=None stopPrice=None
+2026-02-24 21:57:58 | INFO     | trading_bot | Placing BUY MARKET order | symbol=BTCUSDT qty=0.002 price=None stopPrice=None
+2026-02-24 21:57:58 | DEBUG    | trading_bot | >> POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002, 'timestamp': 1771950478928, 'signature': '247ac5623aaced2e8977658670bb74879e2a576699c14931e1dc79f19cc444c0'}
+2026-02-24 21:58:00 | DEBUG    | trading_bot | << POST https://testnet.binancefuture.com/fapi/v1/order | status: 200 | body: {"orderId":12528204889,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"kzm1jl1cVnRe7V6o27OxYz","price":"0.00","avgPrice":"0.00","origQty":"0.002","executedQty":"0.000","cumQty":"0.000","cumQuote":"0.00000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTim
+2026-02-24 21:58:00 | INFO     | trading_bot | Order placed successfully | orderId=12528204889 status=NEW
+2026-02-24 21:58:31 | INFO     | trading_bot | Logging initialised — writing to logs\trading_bot_20260224.log
+2026-02-24 21:58:31 | INFO     | trading_bot | Logging initialised — writing to logs\trading_bot_20260224.log
+2026-02-24 21:58:31 | INFO     | trading_bot | Logging initialised — writing to logs\trading_bot_20260224.log
+2026-02-24 21:58:31 | DEBUG    | trading_bot | BinanceClient initialised with base URL: https://testnet.binancefuture.com
+2026-02-24 21:58:31 | INFO     | trading_bot | Order request | symbol=BTCUSDT side=SELL type=LIMIT qty=0.002 price=68000.0 stopPrice=None
+2026-02-24 21:58:31 | INFO     | trading_bot | Placing SELL LIMIT order | symbol=BTCUSDT qty=0.002 price=68000.0 stopPrice=None
+2026-02-24 21:58:31 | DEBUG    | trading_bot | >> POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.002, 'price': 68000.0, 'timeInForce': 'GTC', 'timestamp': 1771950511349, 'signature': '7f64a3599d810bdeeeb7946abeefda572f5c35b54aed2671b2a9b3a6331e88f9'}
+2026-02-24 21:58:32 | DEBUG    | trading_bot | << POST https://testnet.binancefuture.com/fapi/v1/order | status: 200 | body: {"orderId":12528216936,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"rmL0eya8FIuPbU43HKTVJh","price":"68000.00","avgPrice":"0.00","origQty":"0.002","executedQty":"0.000","cumQty":"0.000","cumQuote":"0.00000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"update
+2026-02-24 21:58:32 | INFO     | trading_bot | Order placed successfully | orderId=12528216936 status=NEW
